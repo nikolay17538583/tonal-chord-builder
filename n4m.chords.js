@@ -1,5 +1,5 @@
-const maxApi = require("max-api");
-const { Chord, Note } = require("tonal");
+import maxApi from "max-api";
+import { Chord, Note } from "tonal";
 
 maxApi.addHandler("chord", (midiRoot, name) => {
 	const root = Note.fromMidi(midiRoot);
