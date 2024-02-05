@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 960.0, 744.0 ],
+		"rect" : [ 421.0, 198.0, 714.0, 396.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -613,11 +613,10 @@
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 232.155349731445312, 335.28155517578125, 126.0, 22.0 ],
-					"text" : "mc.cycle~ @chans 16"
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 232.155349731445312, 335.28155517578125, 105.0, 22.0 ],
+					"text" : "mc.s~ @chans 16"
 				}
 
 			}
